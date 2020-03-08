@@ -53,7 +53,7 @@ function SendEmail(AResponses, ABaris){
         name : AResponses[ABaris].getItemResponses()[0].getResponse(),
         email: AResponses[ABaris].getItemResponses()[1].getResponse(),
         urlEdit: AResponses[ABaris].getEditResponseUrl(),
-        data : AResponses[ABaris].getItemResponses().toString()
+        data : ""
       };
   
   templ.candidate = candidate;
